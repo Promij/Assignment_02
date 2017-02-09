@@ -1,0 +1,244 @@
+.wrapper{
+	width: 1340px;
+	margin: 0 auto;
+	border: 1px solid red;
+	/*height: 650px;*/
+	overflow: hidden;
+}
+
+.header{
+	/*border: 1px solid black;*/
+	/*margin-bottom: 2px;*/
+	overflow: hidden;
+	background: rgb(0, 100, 400);
+	width: 1340px;
+	/*height: 100px;*/
+}
+.logo{
+	/*border: 1px solid red;*/
+	width: 150px;
+	height:50px;
+	margin-left:160px;
+	margin-top:5px;
+	overflow: hidden;
+	float: left;
+}
+.logo h1{
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.log_in{
+	/*border: 1px solid red;*/
+/*	width: 600px;
+	height:800px;*/
+	margin-right: 40px;
+	/*margin-top:15px;*/
+	overflow: hidden;
+	float: right;
+	display: inline-block;
+}
+.email{
+	/*border: 1px solid red;*/
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: left;
+	overflow: hidden;
+}
+.pswrd{
+	/*border: 1px solid red;*/
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: left;
+	overflow: hidden;
+}
+.log{
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+	overflow: hidden;
+}
+#btn{
+	width:50px;
+	height: 20px;
+	background-color: #4267B2;
+	cursor: pointer;
+	border: 1px solid #29487D;
+	color: white;
+	overflow: hidden;
+	font-family: Helvetica;
+	font-size: 12px;
+}
+label{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	cursor: pointer;
+	color: white;
+}
+.content{
+	/*border: 1px solid black;*/
+	overflow: hidden;
+	width: 1340px;
+	height: 551px;
+	background: rgb(212, 217, 233);
+}
+.con1{
+	/*border: 1px solid black;*/
+	overflow: hidden;
+	float: left;
+	margin-left: 170px;
+	padding-top: 10px;
+}
+.con1 h4{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 19px;
+		color: #0E385F;
+		margin-top: 35px;
+		margin-bottom: 0;
+		line-height: 0px;
+		font-weight: bold;
+		display: block;
+}
+.con1 img{
+	height: 185px;
+	padding-left: 15px;
+	margin-top: 10px;
+}
+.con2 h1{
+	font-size: 35px;
+	font-family: Arial;
+	color: #333333;
+	margin-bottom: 10px;
+}
+.con2 h5{
+	font-size: 19px;
+	font-family: Arial;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 22px;
+	color: #333333;
+	display: block;
+}
+.fn{
+	width: 180px;
+	height: 35px;
+	font-size: large;
+	margin-right: 6px;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+.ln{
+	width: 180px;
+	height: 35px;
+	font-size: large;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left:  8px;
+}
+.mne{
+	width: 380px;
+	height: 35px;
+	font-size: large;
+	margin: 10px 0px;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+.re{
+	width: 380px;
+	height: 35px;
+	font-size: large;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+.np{
+	width: 380px;
+	height: 35px;
+	font-size: large;
+	margin: 10px 0px;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+.birth{
+	font-size: 19px;
+	margin-bottom: 8px;
+	margin-left: 695px;
+	font-family: Arial;
+	color: #1D2129;
+}
+#slct{
+	height: 28px;
+	width: 60px;
+	padding-left: 5px;
+	margin-left: 695px;
+}
+option{
+	font-weight: normal;
+	display: block;
+	white-space: pre;
+	min-height: 1.2em;
+	padding: 0px 2px 1px;
+}
+.slct{
+	height: 28px;
+	width: 70px;
+	padding-left: 5px;
+}
+.bd{
+	float: right;
+	font-size: 11px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-left: 0px;
+	width: 150px;
+	margin-right: 270px;
+	font-family: Arial;
+	color: rgb(54,88,155);
+	display: block;                                                                                                                                          
+}
+.lbl{
+	color: rgb(29,33,41);
+	font-family: Arial;
+	font-size: 19px;
+	cursor: pointer;
+	float: right;
+	margin-right: 485px;
+}
+.plc{
+	width: 320px;
+	font-size: 11px;
+	font-family: Arial;
+	color: rgb(119,122,130);
+	margin-top: 13px;
+	line-height: 13px;
+	margin-bottom: 5px;
+}
+.cbtn{
+	height: 40px;
+	width: 200px;
+	color: rgb(255,255,255);
+	font-size: 18px;
+	font-family: Verdana;
+	padding-bottom: 5px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 445px;
+	cursor: pointer;
+	background: rgb(10,150,50);
+	border-width: 0.5px;
+	border-style: solid;
+	border-color: rgb(44,81,21);
+	border-image: initial;
+	border-radius: 4px;
+	padding:1px 6px;
+	align-items: center;
+	box-sizing: border-box;
+}
